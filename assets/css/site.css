@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
 }
-.mainImage {
+img {
+    display: block;
+}
+.main-image {
       width: 400px;
       height: 250px;
       object-fit: cover;
@@ -12,15 +15,19 @@ body {
       margin-bottom: 10px;
     }
  
-    .imgOne, .imgTwo, .imgThree, .imgFour {
+    .thumbnails {
+      justify-content: center;
+      align-items: center;
+    }
+ 
+    .thumbnails img {
       width: 80px;
       height: 50px;
       object-fit: cover;
-      cursor: pointer;
       margin-right: 5px;
       border: 2px solid transparent;
     }
  
-    .imgOne:hover, .imgTwo:hover, .imgThree:hover, .imgFour:hover {
+     .thumbnails img:hover {
       border-color: rgb(65, 65, 65);
     }
