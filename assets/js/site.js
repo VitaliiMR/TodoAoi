@@ -6,4 +6,3 @@ function changeImage(clickedImg) {
     mainImg.src = clickedImg.src;
     clickedImg.src = tempSrc;
 }
-

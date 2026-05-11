@@ -3,11 +3,10 @@ body {
     background-color: #a1a1a1;
     padding: 20px;
 }
-.tileSwitcher {
+#tileSwitcher {
     display: flex;
-    gap: 15px;
-    width: 800px;
-    height: 500px;
+    justify-content: center;
+    gap: 10px;
 }
 .main-image {
     width: 25%;
@@ -20,7 +19,7 @@ body {
     }
 .thumbnails{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: 10px;
     width: 25%;
     }
@@ -33,7 +32,3 @@ body {
     border: 2px solid transparent;
 }
  
-.thumbnails img:hover {
-      border-color: rgb(65, 65, 65);
-      cursor: pointer;
-}
