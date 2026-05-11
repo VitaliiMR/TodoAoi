@@ -1,29 +1,36 @@
 body {
     font-family: 'sans-serif';
     background-color: #a1a1a1;
-    margin: 0;
-    padding: 0;
+    padding: 20px;
 }
-img {
-    display: block;
+.tileSwitcher {
+    display: flex;
+    gap: 15px;
+    width: 800px;
+    height: 500px;
 }
 .main-image {
-      width: 600px;
-      height: 450px;
+    width: 25%;
+}
+.main-image img{
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      display: block;
-      margin-bottom: 10px;
+      border-radius: 10px;
     }
-.thumbnails {
-      display: flex;
+.thumbnails{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 25%;
     }
  
 .thumbnails img {
-      width: 80px;
-      height: 50px;
-      object-fit: cover;
-      margin-right: 5px;
-      border: 2px solid transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 8px;
+    border: 2px solid transparent;
 }
  
 .thumbnails img:hover {

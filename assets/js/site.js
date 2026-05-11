@@ -1,6 +1,9 @@
 console.log('stand proud, you can code!');
 
-function changeImage(smallImage) {
-    var mainImage = document.querySelector('.main-image');
-    mainImage.src = smallImage.src;
+function changeImage(clickedImg) {
+    const mainImg = document.querySelector('.main-image');
+    const tempSrc = mainImg.src;
+    mainImg.src = clickedImg.src;
+    clickedImg.src = tempSrc;
 }
+
