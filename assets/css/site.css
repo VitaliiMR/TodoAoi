@@ -12,7 +12,7 @@ body {
       margin-bottom: 10px;
     }
  
-    .imgOne, .imgTwo, .imgThree, .imgFour img {
+    .imgOne, .imgTwo, .imgThree, .imgFour {
       width: 80px;
       height: 50px;
       object-fit: cover;
@@ -21,6 +21,6 @@ body {
       border: 2px solid transparent;
     }
  
-    .imgOne img:hover {
-      border-color: blue;
+    .imgOne:hover, .imgTwo:hover, .imgThree:hover, .imgFour:hover {
+      border-color: rgb(65, 65, 65);
     }
