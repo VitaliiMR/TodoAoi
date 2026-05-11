@@ -1,1 +1,17 @@
-
+body {
+    font-family: 'sans-serif';
+    background-color: #a1a1a1;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: flex;
+    width: 15%;
+    height: auto;
+}
+section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
